@@ -10,16 +10,17 @@
 * #6.  [Testing Instructions](#testing-instructions)
 * #7.  [Questions](#questions)
 ---
-#Technologies Used
-MySQL
+#Technologies Used:
 <br>
-Console.Table 
+#####MySQL
 <br>
-Inquirer
+#####Console.Table 
 <br>
-Nodemon
+#####Inquirer
 <br>
-<dotenv>
+#####Nodemon
+<br>
+#####<dotenv>
 =======================================================
 #Installation
 NPM i inquirer, mysql, console.table, Nodemon,  dotenv, mysql2
@@ -27,7 +28,10 @@ NPM i inquirer, mysql, console.table, Nodemon,  dotenv, mysql2
 
 #Usage
 This project is used for creating Employees upon hire with their given role, title, and salary etc. and that employee can now be kept track of and updated depending on promotions or if they are let go.
-
+![Mysql Workbench](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/workbench.png)
+![Mysql Terminal gif](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/mysql.gif)
+  
+![npm start](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/npm%20start.gif)
 
 $License
 This project is licensed under MIT
@@ -35,7 +39,7 @@ This project is licensed under MIT
 #Testing Instructions
 I tested this project using MySQL Workbench for database creation and my in-line terminal command of "npm start"
 ---
-![Questions] (https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+![Questions](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 <br>
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)      https://github.com/ilknur2603/
 ***
