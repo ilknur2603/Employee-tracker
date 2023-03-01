@@ -1,10 +1,14 @@
 # Employee-tracker
 ![License](https://img.shields.io/badge/License%3A-MIT-green)
-#*Table of Contents
-*Description
-*Technologies Used
-*Installation
-*Usage
+# Table of Contents
+
+* #1.  [Description](#description)
+* #2.  [Technologies Used](#technologies-used)
+* #3.  [Installation](#installation)
+* #4.  [Usage](#usage)
+* #5.  [License](#license)
+* #6.  [Testing Instructions](#testing-instructions)
+* #7.  [Questions](#questions)
 ---
 #Technologies Used
 MySQL
@@ -30,8 +34,9 @@ This project is licensed under MIT
 
 #Testing Instructions
 I tested this project using MySQL Workbench for database creation and my in-line terminal command of "npm start"
-
-Questions (https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+---
+![Questions] (https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+<br>
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)      https://github.com/ilknur2603/
 ***
 ![E-mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)        ilknurdayanc2603@gmail.com/
