@@ -10,17 +10,17 @@
 * #6.  [Testing Instructions](#testing-instructions)
 * #7.  [Questions](#questions)
 ---
-#Technologies Used:
+# Technologies Used:
 <br>
-#####MySQL
+##### MySQL
 <br>
-#####Console.Table 
+##### Console.Table 
 <br>
-#####Inquirer
+##### Inquirer
 <br>
-#####Nodemon
+##### Nodemon
 <br>
-#####<dotenv>
+##### dotenv
 =======================================================
 #Installation
 NPM i inquirer, mysql, console.table, Nodemon,  dotenv, mysql2
