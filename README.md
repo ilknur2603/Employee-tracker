@@ -10,7 +10,9 @@
 * #6.  [Testing Instructions](#testing-instructions)
 * #7.  [User Story](#User-Story)
 * #8.  [Questions](#questions)
----
+* <br>
+----
+<br>
 # Technologies Used:
 <br>
 ##### MySQL
@@ -23,8 +25,9 @@
 <br>
 ##### dotenv
 <br>
----
+--------
 #Installation
+<br>
 NPM i inquirer, mysql, console.table, Nodemon,  dotenv, mysql2
 -------------------------------------------------------------------
 <br>
@@ -32,9 +35,9 @@ NPM i inquirer, mysql, console.table, Nodemon,  dotenv, mysql2
 <br>
 This project is used for creating Employees upon hire with their given role, title, and salary etc. and that employee can now be kept track of and updated depending on promotions or if they are let go.
 <br>
-![Mysql Workbench](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/workbench.png)
+![Workbench](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/workbench.png)
 <br>
-![Mysql Terminal gif](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/mysql.gif)
+![Mysql-Terminal](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/mysql.gif)
 <br>
 <br>
   
