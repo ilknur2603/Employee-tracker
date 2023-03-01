@@ -37,7 +37,7 @@ This project is used for creating Employees upon hire with their given role, tit
 <br>
 ![Workbench](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/workbench.png)
 <br>
-![Mysql-Terminal](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/mysql.gif)
+![mysql-Terminal](https://github.com/ilknur2603/Employee-tracker/blob/main/assets/mysql.gif)
 <br>
 <br>
   
