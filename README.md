@@ -8,7 +8,7 @@
 * #4.  [Usage](#usage)
 * #5.  [License](#license)
 * #6.  [Testing Instructions](#testing-instructions)
-* #7.  [User Story](#User Story)
+* #7.  [User Story](#User-Story)
 * #8.  [Questions](#questions)
 ---
 # Technologies Used:
