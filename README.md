@@ -29,6 +29,7 @@
 #Installation
 <br>
 NPM i inquirer, mysql, console.table, Nodemon,  dotenv, mysql2
+<br>
 -------------------------------------------------------------------
 <br>
 #Usage
