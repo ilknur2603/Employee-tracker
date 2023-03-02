@@ -1,7 +1,7 @@
 //call once somewhere in the beginning of the app
 const mysql = require("mysql2");
 const inquirer = require("inquirer");
-const cTable = require("console.table");
+require("console.table");
 //Use dotenv
 require("dotenv").config();
 
@@ -124,7 +124,7 @@ const addRole = () => {
 const addEmployee = () => {
   connection.query(
     `SELECT id AS a value, title AS a name FROM role`,
-    (err, Roles) => {
+    (err, roles) => {
       inquirer
         .prompt([
           {
@@ -141,11 +141,11 @@ const addEmployee = () => {
             type: "list",
             name: "role_id",
             message: "What is the employee's role?",
-            choices: Roles,
+            choices: roles,
           },
         ])
-        .then((Employee) => {
-          connection.query("INSERT INTO employee SET ?", Employee, (error) => {
+        .then((employee) => {
+          connection.query("INSERT INTO employee SET ?", employee, (error) => {
             init();
           });
         });
@@ -157,8 +157,8 @@ function viewAllDepartments() {
   connection.query(
     "SELECT employee.first_name, employee.last_name, department.name AS Department FROM employee JOIN role ON employee.role_id = role.id JOIN department ON role.department_id = department.id ORDER BY employee.id;",
     function (error, information) {
-      if (error) throw err;
-      cTable(information);
+      if (error) throw error;
+      console.table(information);
       init();
     }
   );
@@ -168,9 +168,9 @@ function viewAllRoles() {
   connection.query(
     "SELECT employee.first_name, employee.last_name, role.title AS Title FROM employee JOIN role ON employee.role_id = role.id;",
     function (error, information) {
-      if (error) throw err;
+      if (error) throw error;
       console.log(error);
-      cTable(information);
+      console.table(information);
       init();
     }
   );
@@ -180,8 +180,8 @@ function viewAllEmployees() {
   connection.query(
     "SELECT employee.first_name, employee.last_name, role.title, role.salary, department.name, CONCAT(e.first_name, ' ' ,e.last_name) AS Manager FROM employee INNER JOIN role on role.id = employee.role_id INNER JOIN department on department.id = role.department_id left join employee e on employee.manager_id = e.id;",
     function (error, information) {
-      if (error) throw err;
-      cTable(information);
+      if (error) throw error;
+      Table(information);
       init();
     }
   );
