@@ -158,7 +158,11 @@ function viewAllDepartments() {
     "SELECT employee.first_name, employee.last_name, department.name AS Department FROM employee JOIN role ON employee.role_id = role.id JOIN department ON role.department_id = department.id ORDER BY employee.id;",
     function (error, information) {
       if (error) throw error;
+<<<<<<< HEAD
       console.table(information);
+=======
+      cTable(information);
+>>>>>>> c916ae4a85884c38b0bf8a7b6d156b6327aedd51
       init();
     }
   );
@@ -181,7 +185,11 @@ function viewAllEmployees() {
     "SELECT employee.first_name, employee.last_name, role.title, role.salary, department.name, CONCAT(e.first_name, ' ' ,e.last_name) AS Manager FROM employee INNER JOIN role on role.id = employee.role_id INNER JOIN department on department.id = role.department_id left join employee e on employee.manager_id = e.id;",
     function (error, information) {
       if (error) throw error;
+<<<<<<< HEAD
       Table(information);
+=======
+      cTable(information);
+>>>>>>> c916ae4a85884c38b0bf8a7b6d156b6327aedd51
       init();
     }
   );
